@@ -43,7 +43,6 @@ void removeDuplicate(struct node* head){
     }
 }
 
-
 int main(){
     struct node * head=NULL;
     push(&head,61);
