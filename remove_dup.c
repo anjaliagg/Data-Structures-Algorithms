@@ -26,7 +26,7 @@ void removeDuplicate(struct node* head){
     struct node * b;
     struct node * prev;
     while(a->next!=NULL){
-        b=a->next;
+        b= a->next;
         prev=a;
         while(b!=NULL){
             if(a->data==b->data){
